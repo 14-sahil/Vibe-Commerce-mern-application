@@ -1,4 +1,4 @@
-# Vibe Commerce — Beginner friendly README
+# Vibe Commerce — MERN-Stack-Application
 
 Vibe Commerce is a compact full‑stack shopping cart demo built for learning. It shows how a React frontend (Vite) talks to an Express backend with MongoDB (Mongoose). The app demonstrates browsing products, signing in, adding items to a cart (signed-in users), and performing a mock checkout that saves a styled receipt.
 
