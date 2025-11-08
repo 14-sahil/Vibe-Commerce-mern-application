@@ -66,8 +66,6 @@ Notes & next steps
 - Currently only signed-in users can add to cart and checkout. If you want guest carts, we can add localStorage-based guest cart merging on sign-in.
 - Ideas to extend: per‑user cart persistence, richer product data, image upload, payment provider integration, or CI tests.
 
-If you'd like, I can add a printable receipt page, guest-cart support, or an automated smoke test that signs up, adds items, and checks out.
-
 Enjoy exploring the project — open the frontend URL printed by Vite and try signing up and making a mock purchase!
 
 
