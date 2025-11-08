@@ -1,0 +1,10 @@
+[33mThe CJS build of Vite's Node API is deprecated. See https://vite.dev/guide/troubleshooting.html#vite-cjs-node-api-deprecated for more details.[39m
+[2m11:00:32 pm[22m [31m[1m[vite][22m[39m Pre-transform error: C:\Users\Sahil Karamkar\OneDrive - iTouch Solution\Desktop\Internshall_Ecommerproject\client\src\pages\AuthPage.jsx: Identifier 'React' has already been declared. (47:7)
+
+[0m [90m 45 |[39m   )
+ [90m 46 |[39m }
+[31m[1m>[22m[39m[90m 47 |[39m [36mimport[39m [33mReact[39m[33m,[39m { useState } [36mfrom[39m [32m'react'[39m
+ [90m    |[39m        [31m[1m^[22m[39m
+ [90m 48 |[39m
+ [90m 49 |[39m [36mexport[39m [36mdefault[39m [36mfunction[39m [33mAuthPage[39m({ onLogin[33m,[39m onSignup[33m,[39m currentUser }) {
+ [90m 50 |[39m   [36mconst[39m [mode[33m,[39m setMode] [33m=[39m useState([32m'login'[39m)[0m

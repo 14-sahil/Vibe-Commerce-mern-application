@@ -1,0 +1,29 @@
+:root{--bg:#f7f7f9;--card:#fff;--accent:#111}
+*{box-sizing:border-box}
+body{font-family:system-ui,Segoe UI,Roboto,Arial;background:var(--bg);margin:0;color:#222}
+.site-header{background:#111;color:#fff;padding:12px 20px}
+.site-header h1{margin:0}
+.app main{display:grid;grid-template-columns:1fr 320px;gap:20px;padding:20px}
+.content-left{display:block}
+.side{display:flex;flex-direction:column;gap:12px}
+.order-card{background:#fff;padding:8px;border-radius:6px;margin-bottom:8px;border:1px solid #eee}
+.muted{color:#666;font-size:0.9rem}
+.products .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:12px}
+.card{background:var(--card);padding:12px;border-radius:8px;box-shadow:0 1px 4px rgba(0,0,0,0.06)}
+.card h4{margin:0 0 6px}
+.price{font-weight:600}
+.desc{color:#666;font-size:0.9rem}
+.card button{margin-top:8px;padding:8px 10px}
+.cart{background:var(--card);padding:12px;border-radius:8px}
+.cart-item{display:flex;justify-content:space-between;align-items:center;padding:8px 0;border-bottom:1px solid #eee}
+.cart-total{font-weight:700;margin-top:8px}
+.checkout{background:var(--card);padding:12px;border-radius:8px;margin-top:12px}
+.form-row{display:flex;flex-direction:column;margin-bottom:8px}
+.form-row label{font-size:0.85rem;color:#333}
+.form-row input{padding:8px;border-radius:4px;border:1px solid #ddd}
+.receipt{position:fixed;right:20px;bottom:20px;background:#fff;padding:12px;border-radius:8px;box-shadow:0 6px 24px rgba(0,0,0,0.12)}
+
+@media(max-width:900px){
+  .app main{grid-template-columns:1fr}
+  .cart{order:2}
+}
